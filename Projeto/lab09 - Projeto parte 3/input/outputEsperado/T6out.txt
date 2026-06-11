@@ -1,0 +1,65 @@
+*** Constant pool ***
+*** Instructions ***
+0: galloc 1
+1: iconst 10
+2: gstore 0
+3: call 5
+4: halt
+5: lalloc 2
+6: iconst 20
+7: lstore 2
+8: iconst 30
+9: lstore 3
+10: gload 0
+11: iprint
+12: lalloc 2
+13: iconst 11
+14: lstore 4
+15: iconst 31
+16: lstore 5
+17: lalloc 2
+18: iconst 12
+19: lstore 6
+20: iconst 40
+21: lstore 7
+22: lload 6
+23: iprint
+24: lalloc 1
+25: iconst 50
+26: lstore 8
+27: iconst 13
+28: lstore 6
+29: lload 6
+30: iprint
+31: pop 1
+32: lload 6
+33: iprint
+34: pop 2
+35: lload 4
+36: iprint
+37: pop 2
+38: gload 0
+39: iprint
+40: iconst 21
+41: lstore 2
+42: iconst 14
+43: gstore 0
+44: lalloc 1
+45: iconst 60
+46: lstore 4
+47: lload 4
+48: iprint
+49: gload 0
+50: iprint
+51: pop 1
+52: pop 2
+53: ret 0
+*** VM output ***
+10
+12
+13
+13
+11
+10
+60
+14

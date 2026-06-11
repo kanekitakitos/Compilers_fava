@@ -1,0 +1,2 @@
+error in line 6: missing return in function hello
+error in line 18: missing return in function xpto2

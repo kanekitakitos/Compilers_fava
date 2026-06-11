@@ -1,0 +1,6 @@
+integer i,j,k;
+bool b;
+b := true;
+print b;
+i := 5;
+print i + j;

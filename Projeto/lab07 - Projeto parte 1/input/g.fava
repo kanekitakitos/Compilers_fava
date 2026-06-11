@@ -1,0 +1,4 @@
+print "ola";
+print 3 * 2 + false;
+print true || 2.0 + 3;
+print "maria" mod 3.14;

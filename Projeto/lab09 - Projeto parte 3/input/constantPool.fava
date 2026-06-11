@@ -1,0 +1,10 @@
+real fu := 3.14159;
+
+
+function main() {
+    real pi := 3.14159, po:= pi;
+    string msg := "O valor de PI e: ";
+
+    print msg;
+    print pi;
+}

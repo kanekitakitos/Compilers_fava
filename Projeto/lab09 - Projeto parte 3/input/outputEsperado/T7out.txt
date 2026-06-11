@@ -1,0 +1,23 @@
+*** Constant pool ***
+0: "Oi"
+1: "Ai"
+*** Instructions ***
+0: call 12
+1: halt
+2: lalloc 2
+3: lalloc 3
+4: sconst 0
+5: sprint
+6: iconst 1
+7: retval 0
+8: pop 3
+9: sconst 1
+10: sprint
+11: pop 2
+12: lalloc 1
+13: call 2
+14: lstore 2
+15: pop 1
+16: ret 0
+*** VM output ***
+Oi

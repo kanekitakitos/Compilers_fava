@@ -1,0 +1,36 @@
+integer zzz;
+
+function mainNNN() {
+    integer n;
+    bool n;
+    string s := hello("Maria");
+    string s2 := hello(5);
+    n := fun(1,2,3);
+    fun(1,2);
+    n := hello("Maria");
+    fun := 8;
+    n := misterio(n);
+    return true;
+}
+
+function hello( string s ) -> string {
+   return "Hello " || s;
+}
+
+function zzz( integer x ) -> real {
+   return x + 1;
+}
+
+function hello() {
+   print "Hello";
+}
+
+function fun( integer x, integer y ) -> integer {
+   bool b := hello;
+   return x + y;
+}
+
+function xpto() -> integer {
+   real r := 3.14;
+   return r;
+}

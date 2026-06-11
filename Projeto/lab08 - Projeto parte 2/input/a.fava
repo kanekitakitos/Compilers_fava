@@ -1,0 +1,10 @@
+bool b, p;
+integer x := 3.14, y, soma;
+real r := "ualg";
+string s;
+b := 99;
+r := 3;
+s := 5;
+x := 33;
+x := 3.14;
+print x;

@@ -1,0 +1,6 @@
+integer x;
+x := 6;
+if (x mod 2 = 0)
+print x || " eh par";
+else
+print x || " eh impar";

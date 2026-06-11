@@ -1,0 +1,8 @@
+integer i := 1;
+while (i) {
+print i;
+if ("esta a chover")
+print "abre o guarda-chuva";
+i := i + 1;
+}
+print "tchau";

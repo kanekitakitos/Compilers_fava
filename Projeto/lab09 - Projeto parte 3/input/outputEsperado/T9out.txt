@@ -1,0 +1,6 @@
+error in line 2: xpto not declared
+error in line 4: missing return in function fun
+error in line 8: function fun2 must return a value of type integer
+error in line 11: fun already declared
+error in line 23: missing return in function funny
+error in line 24: missing main()

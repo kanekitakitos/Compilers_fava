@@ -1,0 +1,16 @@
+function sqr( integer x ) -> integer
+{
+    return x * x;
+}
+
+function sqrsum( integer a, integer b ) -> integer
+{
+    integer s;
+    s := sqr(a + b);
+    return s;
+}
+
+function main()
+{
+    print sqrsum(3,2);
+}

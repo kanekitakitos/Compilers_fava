@@ -1,0 +1,13 @@
+function sqr( real x ) -> real {
+    return x * x;
+}
+
+function double( integer i ) -> real {
+    return i + i;
+}
+
+function main() {
+    integer i := 8;
+    print sqr(i);
+    print double(i);
+}

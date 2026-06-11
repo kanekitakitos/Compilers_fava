@@ -1,0 +1,11 @@
+real r := 88;
+integer i := 5, j := 2, k;
+bool b := true;
+real x;
+
+print b;
+x := 2;
+k := 5;
+print x;
+print i + j + k;
+print r;

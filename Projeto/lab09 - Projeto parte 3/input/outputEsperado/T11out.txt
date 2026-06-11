@@ -1,0 +1,2 @@
+error in line 25: missing return in function bad1
+error in line 41: missing return in function bad3

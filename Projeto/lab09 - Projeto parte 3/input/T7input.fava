@@ -1,0 +1,14 @@
+function xpto() -> integer {
+   integer x, y;
+   {
+      integer a, b, c;
+      print "Oi";
+      return 1;
+   }
+   print "Ai";
+}
+
+function main() {
+   integer x;
+   x := xpto();
+}

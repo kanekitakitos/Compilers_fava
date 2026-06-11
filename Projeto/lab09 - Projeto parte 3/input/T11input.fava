@@ -1,0 +1,75 @@
+function ok1( integer x ) -> integer {
+    if (x = 0) {
+        if (x = 0) return 1;
+        else return 2;
+    } else {
+        {
+            integer y := 0;
+            return 3;
+        }
+    }
+}
+
+function ok2( integer x ) -> integer {
+    if (x = 0) return 1;
+    return 2;
+}
+
+function bad1( integer x ) -> integer {
+    if (x = 0) {
+        if (x = 1) return 1;
+    } else {
+        integer y := 0;
+    }
+    integer z := 0;
+}
+
+function ok3( integer x ) -> integer {
+    while (true) {
+        if (x = 0) return 1;
+        else {
+            integer a := 0;
+            return 2;
+        }
+    }
+}
+
+function bad3( integer x ) -> integer {
+    while (x = 0) {
+        return 1;
+    }
+}
+
+function bad4( bool t ) -> integer
+{
+    if (t) {
+        integer a := 1;
+
+        if (a = 0) {
+            if (t) return 10;
+            else return 11;
+        } else {
+            if (t) {
+                integer b := 2;
+                if (b = 2) return 12;
+            } else {
+                integer c := 3;
+                if (c = 4) return 13;
+                else {
+                    integer d := 4;
+                    if (d = 4) return 14;
+                }
+            }
+        }
+
+        print a;
+    } else {
+        integer e := 5;
+        if (e = 6) return 20;
+        print e;
+    }
+
+}
+
+function main() {
+}

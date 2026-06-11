@@ -1,0 +1,64 @@
+integer g := 0;
+real gr := 0.0;
+string gs := "start";
+bool gb := true;
+
+function sqr( real x ) -> real {
+    return x * x;
+}
+
+function isEven( integer n ) -> bool {
+    return (n mod 2) = 0;
+}
+
+function factorial( integer n ) -> integer {
+    if (n = 0) return 1;
+    return n * factorial(n - 1);
+}
+
+function sumUpTo( integer n ) -> integer {
+    integer acc := 0;
+    integer i := 1;
+    while (i <= n) {
+        acc := acc + i;
+        i := i + 1;
+    }
+    return acc;
+}
+
+function avg( integer a, integer b ) -> real {
+    real r := a + b;
+    return r / 2.0;
+}
+
+function setGlobals( integer x ) {
+    g := x;
+    gr := x;
+    gb := isEven(x);
+    gs := "g=" || x;
+}
+
+function main() {
+    integer i := 8;
+    setGlobals(i);
+
+    print gs;
+    print gr;
+    print sqr(gr);
+    print sumUpTo(5);
+
+    if (gb and (i > 0)) {
+        integer i := 3;
+        print i;
+    } else {
+        print 0;
+    }
+
+    integer c := 3;
+    while (c > 0) {
+        print c;
+        c := c - 1;
+    }
+
+    print factorial(6);
+}

@@ -1,0 +1,27 @@
+integer a := 10;
+
+function main() {
+   integer b := 20, c := 30;
+   print a;
+   {
+      integer a := 11, c := 31;
+      {
+         integer a := 12, d := 40;
+         print a;
+         {
+            integer e := 50;
+            a := 13;
+            print a;
+         }
+         print a;
+      }
+      print a;
+   }
+   print a;
+   b := 21; a := 14;
+   {
+      integer f := 60;
+      print f;
+      print a;
+   }
+}

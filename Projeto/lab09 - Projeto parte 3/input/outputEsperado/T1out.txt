@@ -1,0 +1,13 @@
+error in line 5: n already declared
+error in line 7: expecting a string for argument of function hello
+error in line 8: function fun expects 2 arguments
+error in line 9: value of function fun must be assigned to a variable
+error in line 10: operator := is invalid between integer and string
+error in line 11: fun is not a variable
+error in line 12: misterio not declared
+error in line 13: function mainNNN does not return a value
+error in line 20: zzz already declared
+error in line 24: hello already declared
+error in line 29: hello is not a variable
+error in line 35: function xpto must return a value of type integer
+error in line 37: missing main()

@@ -1,0 +1,6 @@
+function foo() -> integer {
+    return bar();
+}
+
+function main() {
+}

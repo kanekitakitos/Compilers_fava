@@ -1,0 +1,6 @@
+Integer i := 1;
+WHILE (i <= 5) {
+print I;
+i := i + 1;
+}
+print "tchau";

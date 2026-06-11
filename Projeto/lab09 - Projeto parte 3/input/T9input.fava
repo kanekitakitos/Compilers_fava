@@ -1,0 +1,23 @@
+function fun() -> integer {
+    xpto();
+
+}
+
+function fun2() -> integer {
+    integer a := 0;
+    return 1.0;
+}
+
+function fun() {
+    return;
+}
+
+function funny() -> integer {
+    integer i := 0;
+    if (i = 0) {
+        i := 1;
+    }
+    print i;
+
+
+}
