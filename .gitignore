@@ -10,6 +10,28 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# IDE and editor folders
+.idea/
+.vscode/
+.settings/
+
+# IntelliJ project files
+*.iml
+
+# Build and generated output
+out/
+build/
+dist/
+target/
+.output/
+output/
+bin/
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+*.tmp
+
 # Package Files #
 *.jar
 *.war
